@@ -1,0 +1,947 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&family=Lato:wght@300&family=Playfair+Display:ital@0;1&family=Poppins&family=Ubuntu&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Edu SA Beginner', cursive;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+body{
+  font-family: 'Edu SA Beginner', cursive;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: hsla(0, 0%, 0%);
+
+}
+
+a{
+  text-decoration: none;
+}
+/* NAVBAR STARTS */
+nav{
+  width: 85%;
+  margin: auto;
+  height: 75px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  position: relative;
+  z-index: 100000;
+  color: #fff;
+  font-family: 'Edu SA Beginner', cursive;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+nav .sharon{
+  height: 100%;
+  font-size: 36px;
+  color: hsla(33, 96%, 56%, 0.8);
+}
+.bars{
+  position: relative;
+  display: none;
+  z-index: 100;
+}
+nav ul{
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+}
+
+nav ul .active{
+  color: hsla(33, 94%, 58%, 0.8);
+}
+nav ul li{
+  list-style: none;
+  font-weight: 600;
+  font-size: 19px;
+}
+
+.tab{
+  color: #fff;
+}
+.actives {
+  color: red;
+}
+
+/* NAVBAR ENDS */
+
+/* HOME PAGE STARTS HERE */
+
+.home section{
+  width: 100%;
+  background-color: hsla(0, 0%, 0%, .85);
+  height: 70%;
+  justify-content: center;
+  position: relative;
+  z-index: 6;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.home section .flex{
+  width: 85%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home section .flex .flex-img{
+  width: 32%;
+}
+
+.home section .flex .flex-text{
+  width: 55%;
+}
+
+.home section img{
+  width: 100%;
+  height: 58vh;
+  border-radius: 80px 0 80px 0;
+  object-fit: fill;
+}
+.home section h2{
+  font-size: 50px;
+  color: hsla(33, 94%, 58%, 0.8) ;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.home section h4{
+  font-size: 32px;
+  font-weight: 700;
+  color: hsla(33, 96%, 56%, 0.8) ;
+  margin-top: 10px;
+}
+.home section p{
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.home section button{
+  background-color: hsla(33, 96%, 56%, 0.8);
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 19px;
+  padding: 14px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+/* HOME PAGE ENDS HERE */
+
+
+
+/* ABOUT PAGE STARTS HERE */
+
+.abouts{
+  background-color: #01070f;
+  padding-bottom: 40px;
+}
+.abouts section{
+  width: 90%;
+  padding-top: 80px;
+  margin: auto;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.abouts section div h1{
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.abouts section div h1 span{
+  color: hsla(33, 96%, 56%, 0.8);
+}
+
+.abouts section div p{
+  font-size: 19px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+.abouts section div p span{
+  color: hsla(33, 96%, 56%, 0.8);
+  font-weight: 600;
+}
+
+.abouts section div{
+  width: 40%;
+  color: #fff;
+}
+
+.abouts section .text{
+  width: 55%;
+}
+
+.abouts section div img{
+  width: 90%;
+  border-radius: 100px 0 100px 0;
+  height: 55vh;
+}
+
+.abouts .services{
+  padding-top: 90px;
+  width: 90%;
+  margin: auto;
+  color: #fff;
+}
+
+.abouts .services h1{
+  text-align: center;
+  font-size: 45px;
+  color: hsla(33, 94%, 58%, 0.8);
+}
+
+.abouts .services .service-cards{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.abouts .services .service-cards .service-card{
+  width: 43%;
+  display: flex;
+  margin-bottom: 30px;
+  border: 3px solid hsla(33, 90%, 58%, 0.8);
+  padding: 20px;
+  border-radius: 30px 0 30px;
+}
+.abouts .services .service-cards .service-card h3{
+  margin-right: 15px;
+  width: 38px;
+  height: 38px;
+  border-radius: 38px;
+  font-size: 14px;
+  display: grid;
+  place-items: center;
+  background-color: hsla(33, 94%, 58%, 0.8);
+}
+.abouts .services .service-cards .service-card p{
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+
+
+/* ABOUT PAGE ENDS HERE */
+
+/* skill starts here */
+
+.skills{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.skills .skill{
+  color: hsla(33, 96%, 56%, 0.8);
+  font-size: 40px;
+  text-align: center;
+  padding-top: 36px;
+}
+
+.skills section{
+  padding: 0;
+  padding-top: 15px;
+}
+.skills section .text .progress{
+  width: 100%;
+  margin-bottom: 25px;
+}
+.skills section .text .progress h4{
+  color: #fff;
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.skills section .text .progress h4 .num{
+  font-size: 14px;
+  height: 30px;
+  width: 30px;
+  display: grid;
+  margin-right: 10px;
+  place-items: center;
+  border-radius: 35px;
+  background-color: hsla(33, 90%, 58%, 0.8);
+  display: none;
+  color: #fff;
+}
+
+.skills section .text .progress .progress-color{
+  margin-top: 8px;
+  width: 100%;
+  height: 18px;
+  background-color: #fff;
+  border-radius: 20px;
+  position: relative;
+}
+
+.skills section .text .progress .progress-color span{
+  width: 98%;
+  height: 100%;
+  background-color: hsla(33, 96%, 56%, 0.8);
+  position: absolute;
+  border-radius: 20px;
+  left: 0;
+}
+
+.skills section .text .progress .css span{
+  width: 97%;
+}
+
+.skills section .text .progress .boot span{
+  width: 97%;
+}
+
+.skills section .text .progress .tail span{
+  width: 94%;
+}
+
+.skills section .text .progress .js span{
+  width: 93%;
+}
+
+.skills section .text .progress .react span{
+  width: 87%;
+}
+
+.skills section .text .progress .php span{
+  width: 65%;
+}
+
+.skills section .text .progress .word span{
+  width: 82%;
+}
+.skills section .text .progress .sup span{
+  width: 50%;
+}
+
+.skills section div img{
+  height: 65vh;
+}
+
+
+
+
+
+
+
+/* skill ends here */
+
+/* PROJECTS PAGE STARTS HERE */
+.proj{
+  background-color: #010409;
+  padding-bottom: 10px;
+}
+.proj .project{
+  width: 85%;
+  margin: auto;
+}
+
+.proj .project ul{
+  margin-top: 28px;
+  color: #fff;
+  width: 93%;
+  margin: auto;
+}
+
+.proj .project h3{
+  font-size: 30px;
+  color: hsla(33, 90%, 58%, 0.8);
+  text-align: center;
+  /* margin: 60px; */
+  padding-bottom: 20px;
+}
+
+
+.proj .project .cards{
+  width: 100%;
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.proj .project .cards .card{
+  width: 30%;
+  background-color: #fff;
+  padding: 17px 0;
+  /* margin-left: 20px; */
+  margin-bottom: 25px;
+  border-radius: 60px 0 60px 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.proj .project .cards .card .content-r{
+  width: 95%;
+  margin: auto;
+  padding: 10px 0;
+  /* display: flex; */
+  justify-content: space-between;
+}
+
+.proj .project .cards .card .content-r .content{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: start;
+}
+
+.proj .project .cards .card img{
+  width: 90%;
+  margin: auto;
+  height: 22vh;
+  margin-bottom: 10px;
+  object-fit: cover;
+  margin-bottom: 12px;
+
+}
+.proj .project .cards .card h3{
+  text-align: start;
+  color: #0D192B;
+  font-size: 25px;
+}
+
+.proj .project .cards .card p{
+  text-align: start;
+  color: #0D192B;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 28px;
+}
+
+.proj .project .cards .card button{
+  width: 60%;
+  background-color: hsla(33, 92%, 50%, 0.8);
+  border: none;
+  color: #fff;
+  border-radius: 30px;
+  /* padding: 0 70px; */
+  height: 40px;
+  font-weight: 600;
+  margin-top: 19px;
+  font-size: 16px;
+  cursor: pointer;
+}
+ 
+
+/* PROJECTS PAGE ENDS HERE */
+
+/* CONTACT STARTS HERE */
+.contact{
+  background: #01070f;
+  height: 80vh;
+  padding-top: 100px;
+}
+
+/* .contact div{
+  width: 100%;
+  display: flex;
+} */
+
+.contact form{
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  /* background-color: #fff; */
+  border-radius: 70px 0 70px 0;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 5px solid #fff;
+}
+
+.contact form .form1{
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact form .form2{
+  width: 60%;
+}
+
+.contact form h1{
+  width: 100%;
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.contact form input{
+  width: 46%;
+  height: 50px;
+  border-radius: 7px;
+  outline: none;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  
+}
+
+.contact form textarea{
+  width: 95%;
+  height: 170px;
+  border-radius: 7px;
+  outline: none;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-top: 10px;
+  border: 2px solid #15171b;
+}
+
+.contact form button{
+  width: 30%;
+  height: 60px;
+  border: none;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 20px 0 20px 0;
+  color: #fff;
+  background-color: hsla(33, 90%, 58%);
+  margin: auto;
+}
+
+.socials{
+  height: 50px;
+  padding-top: 15px;
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ .socials a{
+  font-size: 26px;
+  color: #fff;
+}
+
+/* CONTACT ENDS HERE */
+
+
+
+/* FOOTER STARTS HERE */
+.footer{
+  background-color: #fff;
+  padding: 28px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+.footer h3{
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.footer button{
+  height: 45px;
+  width: fit-content;
+  padding: 0 30px;
+  margin: auto;
+  border-radius: 10px;
+  outline: none;
+  color: #0D192B;
+}
+
+/* FOOTER ENDS HERE */
+@media screen and (max-width:2000px){
+  .abouts section .about-pix img{
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width:1400px){
+  .abouts section .about-pix img{
+    height: 40vh;
+  }
+
+}
+
+
+
+@media screen and (max-width:900px){
+  nav{
+    position: relative;
+    z-index: 8;
+    height: 10px;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    height: 60px;
+
+  }
+
+  .bars{
+    width: 95%;
+    color: #fff;
+    font-size: 22px;
+    display: flex;
+    justify-content: end;
+    z-index: 30;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+  }
+  #bar{
+    z-index: 30;
+    position: relative;
+
+   
+  }
+  #close{
+    font-size: 27px;
+    position: relative;
+    
+  }
+  nav .menu{
+    position: fixed;
+    flex-direction: column;
+    background-color: #000;
+    width: 100%;
+    top: 58px;
+    justify-content: start;
+    border-radius: 0 50px 50px 0;
+    gap: 50px;
+    height: 100vh;
+    z-index: 50;
+    left: -100%;
+    transition: 0.3s ;
+    /* display: none; */
+  }
+  nav .menu.active{
+    left: 0;
+  }
+  nav ul li{
+  width: 90%;
+  margin: auto;
+  font-size: 20px;
+  margin-top: 20px;
+}
+  .tab{
+    color: #fff;
+  }
+  nav .sharon{
+  font-size: 26px;
+}
+
+  .cover{
+    width: 100%;
+    top: 0;
+    position: fixed;
+    height: 100vh;
+    background-color: hsla(0, 0%, 0%, .9);
+    z-index: 5;
+    
+  }
+  .cover.active{
+    display: none;
+  }
+
+  /* HOME PAGE STARTS HERE */
+.home section{
+  height: auto;
+}
+  .home section img{
+  width: 40%;
+}
+  .home section h2{
+  font-size: 25px;
+}
+.home section p{
+  font-size: 18px;
+  
+}
+.home section h4 {
+  font-size: 28px;
+}
+.home section .flex{
+  width: 90%;
+  flex-direction: column-reverse;
+}
+.home section .flex .flex-img{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.home section .flex .flex-img img{
+  width: 170px;
+  height: 170px;
+  border-radius: 170px;
+  
+}
+.home section button{
+  font-size: 16px;
+}
+
+
+.home section .flex .flex-text{
+  width: 100%;
+  margin-top: 10px;
+}
+
+.home section .flex .box h4{
+  font-size: 15px;
+}
+
+/* ABOUT PAGE STARTS HERE */
+.abouts section{
+  width: 90%;
+  flex-direction: column;
+}
+
+.abouts section div{
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.abouts section div img {
+  width: 55%;
+  margin: auto;
+  height: 50vh;
+  display: none;
+}
+
+.abouts section .text{
+  width: 100%;
+}
+.abouts section div h1{
+  font-size: 28px;
+  margin-top: 20px;
+}
+.abouts section div p{
+  font-size: 16px;
+}
+.abouts .services{
+  width: 90%;
+}
+.abouts .services h1{
+  font-size: 30px;
+}
+
+.abouts .services h2{
+  font-size: 20px;
+}
+.abouts .services p{
+  font-size: 15px;
+}
+
+.abouts .services .service-cards .service-card{
+  width: 90%;
+  flex-direction: column;
+  padding: 20px 10px;
+}
+.abouts .services .service-cards .service-card h3 {
+  margin-bottom: 10px;
+}
+
+/* SKILLS */
+
+.skills{
+  height: auto;
+}
+
+.skills section{
+  flex-direction: column-reverse;
+}
+
+.skills .skill{
+  font-size: 28px;
+
+}
+.skills section .text .progress h4{
+  font-size: 18px;
+}
+
+
+/* PROJECTS PAGE STARTS HERE */
+.proj .project{
+  width: 90%;
+}
+.proj .project .hello{
+  margin-top: 0;
+  }
+.proj .project ul li{
+  font-size: 16px;
+}
+.proj .project .learn{
+  margin-top: 30px;
+  
+}
+
+.proj .project .light{
+  margin-top: 40px;
+  
+}
+
+.proj .project .sel{
+  font-size: 16px;
+}
+.proj .project .cards .card{
+  width: 95%;
+  
+}
+.proj .project .cards .card .content-r{
+  flex-direction: column;
+  align-items: center;
+}
+.proj .project .cards .card .content-r .content{
+  width: 95%;
+  
+}
+.proj .project .cards .card img{
+  width: 75%;
+  height: 15vh;
+}
+
+
+.proj .project .cards .card p{
+  font-size: 16px;
+}
+
+.proj .socials{
+  width: 70%;
+}
+
+.proj .socials a{
+  font-size: 19px;
+}
+.proj .project .cards .card button{
+ width: 100%;
+}
+
+.proj .project h3{
+  font-size: 24px;
+  
+}
+.proj .project .cards .card h3{
+  font-size: 17px;
+}
+
+.proj .project .cards .card p{
+  font-size: 14px;
+}
+
+/* FOOTER STARTS HERE */
+
+.footer h3{
+  font-size: 18px;
+}
+
+
+/* contact */
+.contact{
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.contact form{
+  margin-top: 20px;
+  width: 75%;
+}
+.contact form .form1{
+  width: 100%;
+}
+
+.contact form button{
+  width: 50%;
+  height: 50px;
+  font-size: 16px;
+}
+.contact form .form2{
+  width: 100%;
+}
+.contact form input{
+  width: 100%;
+  padding-left: 2px;
+}
+.contact form textarea{
+  width: 100%;
+  padding-left: 2px;
+}
+
+.contact form h1{
+  font-size: 24px;
+}
+
+.socials{
+  width: 90%;
+}
+
+ .socials a{
+  font-size: 20px;
+  color: #fff;
+}
+
+
+}
+
+@media screen and (max-width:420px){
+  .contact form input{
+    width: 100%;
+    margin: 20px 0;
+    padding: 0;
+    padding-left: 10px;
+   
+    
+  }
+
+  .home section h4 {
+  font-size: 22px;
+}
+}
+
+@media screen and (max-width:530px){
+.abouts section div img {
+  width: 85%;
+  margin: auto;
+  height: 44vh;
+}
+}
+
+@media screen and (min-width:700px){
+  .contact{
+    height: 100vh;
+  }
+  .contact .form-c{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .socials a{
+    font-size: 30px;
+  }
+}
