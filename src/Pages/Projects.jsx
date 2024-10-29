@@ -25,12 +25,37 @@ import chuk from '../images/chukwu.png'
 import techtan from '../images/tech.png'
 import wit from '../images/wit.png'
 import tan from '../images/tan.png'
-
+import edu from '../images/edu.png'
+import python from '../images/python.png'
+import agro from '../images/agro.png'
 
 
 const Projects = () => {
 
     const project = [
+      {
+        img: python,
+        title: 'Pythons Cave',
+        // p1:'A platform to hire top-notch female tech talents.',
+        button: 'Visit',
+        // link: 'https://school.harvoxx.com/'
+        link:'https://pythonscave.com/'
+      },
+      {
+        img: agro,
+        title: 'AgroVest',
+        // p1:'A platform to hire top-notch female tech talents.',
+        button: 'Visit',
+        link: 'https://agrovest.io/'
+      },
+      {
+        img: edu,
+        title: 'Harvoxx-School',
+        // p1:'A platform to hire top-notch female tech talents.',
+        button: 'Visit',
+        // link: 'https://school.harvoxx.com/'
+        link:'https://harvoxxschool.netlify.app/'
+      },
       {
         img: tan,
         title: 'TechTan',
@@ -90,13 +115,7 @@ const Projects = () => {
         button: 'Visit',
         link: 'https://wit24.netlify.app'
       },
-      {
-        img: coming,
-        title: 'Citicare',
-        // p1:'A platform to hire top-notch female tech talents.',
-        button: 'Visit',
-        link: 'https://citicare.netlify.app/'
-      },
+      
       {
         img: bos,
         title: 'Bosporan',
